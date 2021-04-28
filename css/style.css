@@ -121,6 +121,7 @@ header{
     width:60%;
     height:500px;
     position:relative;
+    margin-top:100px;
 }
 .content-float .picture-1 img{
     position:absloute;
@@ -132,7 +133,7 @@ header{
     width:40%;
     height:500px;
     padding:35px;
-    /* line-height:60px; */
+    margin-top:100px;
 }
 .paragrafo{
     margin-top:20px;
@@ -144,12 +145,13 @@ header{
     width:40%;
     height:500px;
     padding:35px;
-    /* line-height:60px; */
+    margin-top:100px;
 }
 .content-float .picture-2{
     width:60%;
     height:500px;
     position:relative;
+    margin-top:100px;
 }
 .content-float .picture-2 img{
     position:absloute;
@@ -157,13 +159,40 @@ header{
     right:0;
     vertical-align:middle;
 }
-/* terzo contenuto  */
+/* quarto contenuto  */
 .container .end-tittle{
     font-size:40px;
     font-weight: bold;
-    margin-top:30px;
+    margin-top:100px;
     text-align:center;
 }
-.container p{
+.container .specifico{
     text-align:center;
+}
+.container-image img{
+    display:block;
+    margin:0 auto;
+}
+.ready{
+    background-image:url('../img/stars.svg');
+    background-position:top center;
+    background-size:cover;
+}
+.pic{
+    font-size:40px;
+    font-weight: bold;
+    margin-top:40px;
+    display:inline-block;
+}
+.prova{
+    text-align:center;
+}
+.bottom-1{
+    margin:20px auto;
+    background-color:#8ea1e1;
+    border-radius:30px;
+    padding:20px;
+    color:white;
+    width:200px;
+    font-size:18px;
 }
