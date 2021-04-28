@@ -6,6 +6,7 @@
 /* start utility class */
 .container{
     max-width:1200px;
+    min-width:400px;
     margin:0 auto;
 }
 .clearfix::after{
@@ -21,6 +22,18 @@ ul{
     text-align:center;
 }
 /* end class utility */
+header{
+    background-image:url('../img/jumbo.png');
+    height:500px;
+    background-size:cover;
+    background-position:center;
+    padding-top:20px;
+    position:relative;
+}
+.logo li{
+    position:absolute;
+    left:0;
+}
 .center li{
     display:inline-block;
     line-height:34px;
@@ -40,27 +53,29 @@ ul{
     position:absolute;
     right:0;
 }
-
-header{
-    background-image:url('../img/jumbo.png');
-    height:500px;
-    background-size:cover;
-    background-position:center;
-    padding-top:20px;
-}
 .top-bar{
     width:100%;
 }
 .top-bar .logo{
-    width:25%;
+    width:20%;
     height:34px;
+    position:relative;
 }
 .top-bar .center{
-    width:50%;
+    width:60%;
     height:34px;
 }
 .top-bar .login{
-    width:25%;
+    width:20%;
     height:34px;
     position:relative;
+}
+.center-item{
+    border:1px solid black;
+    text-align:center;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
 }
