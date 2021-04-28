@@ -80,7 +80,7 @@ header{
     left:50%;
     transform:translate(-50%, -50%)
 }
-.center-item .text{
+.text{
     font-size:40px;
     font-weight:900;
 }
@@ -118,10 +118,21 @@ header{
 .content-float .picture-1{
     width:60%;
     height:500px;
-    border:1px solid black;
+    position:relative;
+}
+.content-float .picture-1 img{
+    position:absloute;
+    top:0;
+    right:0;
+    vertical-align:middle;
 }
 .content-float .text-1{
     width:40%;
     height:500px;
-    border:1px solid black;
+    padding:35px;
+    /* line-height:60px; */
+}
+.content-float p{
+    margin-top:20px;
+    line-height:30px;
 }
