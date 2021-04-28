@@ -23,6 +23,7 @@ ul{
     text-align:center;
 }
 /* end class utility */
+/* start class of the header  */
 header{
     background-image:url('../img/jumbo.png');
     height:500px;
@@ -108,4 +109,19 @@ header{
     width:300px;
     font-size:18px;
     margin-left:30px;
+}
+/* end class of the header  */
+/* start class of the main  */
+.content-float{
+    margin-top:30px;
+}
+.content-float .picture-1{
+    width:60%;
+    height:500px;
+    border:1px solid black;
+}
+.content-float .text-1{
+    width:40%;
+    height:500px;
+    border:1px solid black;
 }
