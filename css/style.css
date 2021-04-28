@@ -2,6 +2,7 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
+    font-family:Helvetica, Arial, sans-serif;
 }
 /* start utility class */
 .container{
@@ -71,11 +72,40 @@ header{
     position:relative;
 }
 .center-item{
-    border:1px solid black;
     text-align:center;
     color:white;
     position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%, -50%)
+}
+.center-item .text{
+    font-size:40px;
+    font-weight:900;
+}
+.center-item p{
+    font-size:18px;
+    margin-top:40px;
+}
+.center-item .interlinea{
+    line-height:30px;
+}
+.center-item .bottom{
+    display:inline-block;
+    margin-top:20px;
+    background-color:white;
+    text-align:center;
+    border-radius:30px;
+    padding:20px;
+}
+.center-item .uno{
+    color:black;
+    width:200px;
+    font-size:18px;
+}
+.center-item .due{
+    background-color:black;
+    width:300px;
+    font-size:18px;
+    margin-left:30px;
 }
