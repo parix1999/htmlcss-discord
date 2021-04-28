@@ -115,13 +115,13 @@ header{
 
 /* primo contenuto */
 .content-float{
-    margin-top:100px;
+    margin-top:50px;
 }
 .content-float .picture-1{
     width:60%;
     height:500px;
     position:relative;
-    margin-top:100px;
+    margin-top:30px;
 }
 .content-float .picture-1 img{
     position:absloute;
@@ -133,7 +133,7 @@ header{
     width:40%;
     height:500px;
     padding:35px;
-    margin-top:100px;
+    margin-top:30px;
 }
 .paragrafo{
     margin-top:20px;
@@ -195,4 +195,30 @@ header{
     color:white;
     width:200px;
     font-size:18px;
+}
+/* start class footer  */
+.content-float-2 .primo{
+    width:30%;
+    height: 200px;
+    border:1px solid black;
+}
+.content-float-2 .secondo{
+    width:15%;
+    height:400px;
+    border:1px solid black;
+}
+.content-float-2 .terzo{
+    width:15%;
+    height:400px;
+    border:1px solid black;
+}
+.content-float-2 .quarto{
+    width:15%;
+    height:400px;
+    border:1px solid black;
+}
+.content-float-2 .quinto{
+    width:15%;
+    height:400px;
+    border:1px solid black;
 }
