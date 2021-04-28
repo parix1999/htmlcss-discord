@@ -158,3 +158,12 @@ header{
     vertical-align:middle;
 }
 /* terzo contenuto  */
+.container .end-tittle{
+    font-size:40px;
+    font-weight: bold;
+    margin-top:30px;
+    text-align:center;
+}
+.container p{
+    text-align:center;
+}
